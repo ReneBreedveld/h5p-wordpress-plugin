@@ -125,7 +125,7 @@ msgstr "Voeg H5P toe"
 #: admin/class-h5p-content-admin.php:793
 #, php-format
 msgid "%s ago"
-msgstr ""
+msgstr "%s geleden"
 
 #: admin/class-h5p-content-admin.php:847
 msgid "Insert"
@@ -379,7 +379,7 @@ msgstr "Bedankt dat je up-tot-date blijft met H5P"
 msgid ""
 "Head over to the <a href=\"%s\">Libraries</a> page and update your content "
 "types to the latest version."
-msgstr ""
+msgstr "Ga naar de <a href=\"%s\">Libraries</a> pagina en werk de inhoud bij  
 
 #: admin/class-h5p-plugin-admin.php:261
 #, php-format
@@ -452,6 +452,10 @@ msgid ""
 "with the new content types. Here's some more info about <a href=\"%s\" "
 "target=\"_blank\">upgrading the content types</a>."
 msgstr ""
+"Je dient jouw H5P inhoudstpen <strong>bij te werken!</strong> De oude inhouds- "
+"typen werken nog steeds, maar de lay-out van de auteurstool is sterk verbeterd "
+"met nieuwe inhoudstypen. Hier staat meer informatie over <a href=\"%s\" "
+"target=\"_blank\">het bijwerken van de inhoudstypen</a>."
 
 #: admin/class-h5p-plugin-admin.php:376 admin/class-h5p-plugin-admin.php:386
 msgid "Unable to download H5P content types."
@@ -649,19 +653,19 @@ msgstr "Sta JavaScript toe."
 
 #: admin/views/library-delete.php:16
 msgid "Are you sure you wish to delete this H5P library?"
-msgstr "Er du sikker på at du ønsker å slette dette H5P-biblioteket?"
+msgstr "Ben je er zeker van dat je deze H5P bibliotheek wilt wissen?"
 
 #: admin/views/library-delete.php:18
 msgid "Do it!"
-msgstr "Gjør det!"
+msgstr "Uitvoeren!"
 
 #: admin/views/new-content.php:30
 msgid "Enter title here"
-msgstr "Fyll inn tittel"
+msgstr "Vul hier de titel in"
 
 #: admin/views/new-content.php:42
 msgid "Waiting for javascript..."
-msgstr "Venter på JavaScript..."
+msgstr "Wacht op JavaScript..."
 
 #: admin/views/new-content.php:48 admin/views/new-content.php:57
 msgid "Create"
@@ -669,7 +673,7 @@ msgstr "Creëer"
 
 #: admin/views/new-content.php:57
 msgid "Update"
-msgstr ""
+msgstr "Werk bij"
 
 #: admin/views/new-content.php:62 admin/views/new-content.php:95
 msgid "Toggle panel"
@@ -681,19 +685,19 @@ msgstr "Toon opties"
 
 #: admin/views/new-content.php:67
 msgid "Display toolbar below content"
-msgstr ""
+msgstr "Toon de gereedschapsbalk onder de inhoud"
 
 #: admin/views/new-content.php:74 admin/views/settings.php:49
 msgid "Display Download button"
-msgstr ""
+msgstr "Toon de Download knop"
 
 #: admin/views/new-content.php:80 admin/views/settings.php:74
 msgid "Display Embed button"
-msgstr ""
+msgstr "Toon de Insluit knop"
 
 #: admin/views/new-content.php:86 admin/views/settings.php:99
 msgid "Display Copyright button"
-msgstr ""
+msgstr "Toon de Copyright knop"
 
 #: admin/views/new-content.php:99
 msgid "Separate tags with commas"
@@ -741,49 +745,49 @@ msgstr ""
 
 #: admin/views/settings.php:37
 msgid "Toolbar Below Content"
-msgstr ""
+msgstr "Gereedschapsbalk onder de inhoud"
 
 #: admin/views/settings.php:41 admin/views/settings.php:62
 #: admin/views/settings.php:87 admin/views/settings.php:103
 msgid "Controlled by author - on by default"
-msgstr ""
+msgstr "Gecontroleerd door de auteur - standaard is aan"
 
 #: admin/views/settings.php:44
 msgid ""
 "By default, a toolbar with 4 buttons is displayed below each interactive "
 "content."
-msgstr ""
+msgstr "Standaard, wordt er een gereedschapsbalk met 4 knoppen getoond onder elke interactieve inhoud"
 
 #: admin/views/settings.php:53 admin/views/settings.php:78
 msgid "Never"
-msgstr ""
+msgstr "Nooit"
 
 #: admin/views/settings.php:56 admin/views/settings.php:81
 #: admin/views/settings.php:112
 msgid "Always"
-msgstr ""
+msgstr "Altijd"
 
 #: admin/views/settings.php:59 admin/views/settings.php:84
 msgid "Only for editors"
-msgstr ""
+msgstr "Alleen voor een redacteur"
 
 #: admin/views/settings.php:65 admin/views/settings.php:90
 msgid "Controlled by author - off by default"
-msgstr ""
+msgstr "Gecontroleerd door de auteur - standaard is uit"
 
 #: admin/views/settings.php:69
 msgid ""
 "Setting this to 'Never' will reduce the amount of disk space required for "
 "interactive content."
-msgstr ""
+msgstr "Als je de instelling op 'Nooit'zet, zal dit de schijfruimte voor internactieve inhoud verminderen"
 
 #: admin/views/settings.php:94
 msgid "Setting this to 'Never' will disable already existing embed codes."
-msgstr ""
+msgstr "Als je de intelling op 'Nooit'zet, zal dit de reeds bestaande insluitcodes uitzetten"
 
 #: admin/views/settings.php:108
 msgid "Display About H5P button"
-msgstr ""
+msgstr "Toon over H5P knop"
 
 #: admin/views/settings.php:117
 msgid "User Results"
@@ -827,17 +831,18 @@ msgstr "Referentie inhoud via <a href=\"%s\" target=\"_blank\">slug</a>"
 
 #: admin/views/settings.php:163
 msgid "Content Types"
-msgstr ""
+msgstr "Inhoudstypen"
 
 #: admin/views/settings.php:167
 msgid "Enable LRS dependent content types"
-msgstr ""
+msgstr "Activeer LRS afhankelijke inhoudstypen"
 
 #: admin/views/settings.php:170
 msgid ""
 "Makes it possible to use content types that rely upon a Learning Record "
 "Store to function properly, like the Questionnaire content type."
-msgstr ""
+msgstr "Dit maakt het mogelijk om inhoudstypen te gebruiken die gebruik maken van een Learning Record"
+"Sla op voor de juiste werking, zoals het inhoudtype Vragenlijst."
 
 #: admin/views/show-content.php:30
 msgid "Shortcode"
@@ -1078,11 +1083,12 @@ msgstr ""
 msgid ""
 "The version of the H5P library %machineName used in this content is not "
 "valid. Content contains %contentLibrary, but it should be %semanticsLibrary."
-msgstr ""
+msgstr "De versie van de gebruikte H5P bibliotheek %machineName in deze inhoud is niet"
+"geldig. De inhoud bevat %contentLibrary, maar het moet zijn %semanticsLibrary."
 
 #: h5p-php-library/h5p.classes.php:3283
 msgid "The H5P library %library used in the content is not valid"
-msgstr ""
+msgstr "De gebruikte H5P bibliotheek %library in deze inhoud is ongeldig"
 
 #: h5p-php-library/h5p.classes.php:3684
 msgid "Copyright information"
@@ -1146,7 +1152,7 @@ msgstr "Publiek domein markering"
 
 #: h5p-php-library/h5p.classes.php:3770
 msgid "Copyright"
-msgstr "Auterursrecht"
+msgstr "Auteursrecht"
 
 #: public/class-h5p-plugin.php:687
 msgid "Missing H5P identifier."
@@ -1181,7 +1187,7 @@ msgstr "Gebruiksrechten"
 
 #: public/class-h5p-plugin.php:976
 msgid "Embed"
-msgstr "Integreer"
+msgstr "Sluit in"
 
 #: public/class-h5p-plugin.php:977
 msgid "Size"
@@ -1217,7 +1223,7 @@ msgstr "Postzegelformaat"
 
 #: public/class-h5p-plugin.php:989
 msgid "No copyright information available for this content."
-msgstr "De auteursrechten van deze inhoud is niet beschikbaar."
+msgstr "De auteursrechten van deze inhoud zijn niet beschikbaar."
 
 #: public/class-h5p-plugin.php:990
 msgid "Download this content as a H5P file."
